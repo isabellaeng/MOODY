@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E7CEFAF2A5DDFFD00FA35B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CEFAE2A5DDFFD00FA35B5 /* AppDelegate.swift */; };
+		5E7CEFB12A5DDFFD00FA35B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CEFB02A5DDFFD00FA35B5 /* SceneDelegate.swift */; };
+		5E7CEFB32A5DDFFD00FA35B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CEFB22A5DDFFD00FA35B5 /* ViewController.swift */; };
+		5E7CEFB62A5DDFFD00FA35B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7CEFB42A5DDFFD00FA35B5 /* Main.storyboard */; };
+		5E7CEFB82A5DDFFE00FA35B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7CEFB72A5DDFFE00FA35B5 /* Assets.xcassets */; };
+		5E7CEFBB2A5DDFFE00FA35B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E7CEFB92A5DDFFE00FA35B5 /* LaunchScreen.storyboard */; };
+		5E7CEFC62A5DDFFE00FA35B5 /* moodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CEFC52A5DDFFE00FA35B5 /* moodyTests.swift */; };
+		5E7CEFD02A5DDFFE00FA35B5 /* moodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CEFCF2A5DDFFE00FA35B5 /* moodyUITests.swift */; };
+		5E7CEFD22A5DDFFE00FA35B5 /* moodyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7CEFD12A5DDFFE00FA35B5 /* moodyUITestsLaunchTests.swift */; };
+		6F29689A709A7E6E66D59377 /* Pods_moody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BE35CE42BD9B36D5C03788 /* Pods_moody.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E7CEFC22A5DDFFE00FA35B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7CEFA32A5DDFFC00FA35B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7CEFAA2A5DDFFD00FA35B5;
+			remoteInfo = moody;
+		};
+		5E7CEFCC2A5DDFFE00FA35B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E7CEFA32A5DDFFC00FA35B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E7CEFAA2A5DDFFD00FA35B5;
+			remoteInfo = moody;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E7CEFAB2A5DDFFD00FA35B5 /* moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7CEFAE2A5DDFFD00FA35B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E7CEFB02A5DDFFD00FA35B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E7CEFB22A5DDFFD00FA35B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E7CEFB52A5DDFFD00FA35B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E7CEFB72A5DDFFE00FA35B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E7CEFBA2A5DDFFE00FA35B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E7CEFBC2A5DDFFE00FA35B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E7CEFC12A5DDFFE00FA35B5 /* moodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7CEFC52A5DDFFE00FA35B5 /* moodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodyTests.swift; sourceTree = "<group>"; };
+		5E7CEFCB2A5DDFFE00FA35B5 /* moodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7CEFCF2A5DDFFE00FA35B5 /* moodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodyUITests.swift; sourceTree = "<group>"; };
+		5E7CEFD12A5DDFFE00FA35B5 /* moodyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7399CB85B68BA73B895C0BC2 /* Pods-moody.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moody.debug.xcconfig"; path = "Target Support Files/Pods-moody/Pods-moody.debug.xcconfig"; sourceTree = "<group>"; };
+		81BE35CE42BD9B36D5C03788 /* Pods_moody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE06E0AEE6A130949F2F78B /* Pods-moody.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moody.release.xcconfig"; path = "Target Support Files/Pods-moody/Pods-moody.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E7CEFA82A5DDFFD00FA35B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F29689A709A7E6E66D59377 /* Pods_moody.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7CEFBE2A5DDFFE00FA35B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7CEFC82A5DDFFE00FA35B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E7CEFA22A5DDFFC00FA35B5 = {
+			isa = PBXGroup;
+			children = (
+				5E7CEFAD2A5DDFFD00FA35B5 /* moody */,
+				5E7CEFC42A5DDFFE00FA35B5 /* moodyTests */,
+				5E7CEFCE2A5DDFFE00FA35B5 /* moodyUITests */,
+				5E7CEFAC2A5DDFFD00FA35B5 /* Products */,
+				DCB373C7194AE7C14AD5AB7F /* Pods */,
+				D7371FFCFEAB7F9F2B1D676F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E7CEFAC2A5DDFFD00FA35B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E7CEFAB2A5DDFFD00FA35B5 /* moody.app */,
+				5E7CEFC12A5DDFFE00FA35B5 /* moodyTests.xctest */,
+				5E7CEFCB2A5DDFFE00FA35B5 /* moodyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E7CEFAD2A5DDFFD00FA35B5 /* moody */ = {
+			isa = PBXGroup;
+			children = (
+				5E7CEFAE2A5DDFFD00FA35B5 /* AppDelegate.swift */,
+				5E7CEFB02A5DDFFD00FA35B5 /* SceneDelegate.swift */,
+				5E7CEFB22A5DDFFD00FA35B5 /* ViewController.swift */,
+				5E7CEFB42A5DDFFD00FA35B5 /* Main.storyboard */,
+				5E7CEFB72A5DDFFE00FA35B5 /* Assets.xcassets */,
+				5E7CEFB92A5DDFFE00FA35B5 /* LaunchScreen.storyboard */,
+				5E7CEFBC2A5DDFFE00FA35B5 /* Info.plist */,
+			);
+			path = moody;
+			sourceTree = "<group>";
+		};
+		5E7CEFC42A5DDFFE00FA35B5 /* moodyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E7CEFC52A5DDFFE00FA35B5 /* moodyTests.swift */,
+			);
+			path = moodyTests;
+			sourceTree = "<group>";
+		};
+		5E7CEFCE2A5DDFFE00FA35B5 /* moodyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E7CEFCF2A5DDFFE00FA35B5 /* moodyUITests.swift */,
+				5E7CEFD12A5DDFFE00FA35B5 /* moodyUITestsLaunchTests.swift */,
+			);
+			path = moodyUITests;
+			sourceTree = "<group>";
+		};
+		D7371FFCFEAB7F9F2B1D676F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81BE35CE42BD9B36D5C03788 /* Pods_moody.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB373C7194AE7C14AD5AB7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7399CB85B68BA73B895C0BC2 /* Pods-moody.debug.xcconfig */,
+				FDE06E0AEE6A130949F2F78B /* Pods-moody.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E7CEFAA2A5DDFFD00FA35B5 /* moody */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7CEFD52A5DDFFE00FA35B5 /* Build configuration list for PBXNativeTarget "moody" */;
+			buildPhases = (
+				C8E0B006A64C8E0EF32441F4 /* [CP] Check Pods Manifest.lock */,
+				5E7CEFA72A5DDFFD00FA35B5 /* Sources */,
+				5E7CEFA82A5DDFFD00FA35B5 /* Frameworks */,
+				5E7CEFA92A5DDFFD00FA35B5 /* Resources */,
+				B6B8FE61BD883F69C3FA4FD7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moody;
+			productName = moody;
+			productReference = 5E7CEFAB2A5DDFFD00FA35B5 /* moody.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E7CEFC02A5DDFFE00FA35B5 /* moodyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7CEFD82A5DDFFE00FA35B5 /* Build configuration list for PBXNativeTarget "moodyTests" */;
+			buildPhases = (
+				5E7CEFBD2A5DDFFE00FA35B5 /* Sources */,
+				5E7CEFBE2A5DDFFE00FA35B5 /* Frameworks */,
+				5E7CEFBF2A5DDFFE00FA35B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7CEFC32A5DDFFE00FA35B5 /* PBXTargetDependency */,
+			);
+			name = moodyTests;
+			productName = moodyTests;
+			productReference = 5E7CEFC12A5DDFFE00FA35B5 /* moodyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E7CEFCA2A5DDFFE00FA35B5 /* moodyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7CEFDB2A5DDFFE00FA35B5 /* Build configuration list for PBXNativeTarget "moodyUITests" */;
+			buildPhases = (
+				5E7CEFC72A5DDFFE00FA35B5 /* Sources */,
+				5E7CEFC82A5DDFFE00FA35B5 /* Frameworks */,
+				5E7CEFC92A5DDFFE00FA35B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E7CEFCD2A5DDFFE00FA35B5 /* PBXTargetDependency */,
+			);
+			name = moodyUITests;
+			productName = moodyUITests;
+			productReference = 5E7CEFCB2A5DDFFE00FA35B5 /* moodyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E7CEFA32A5DDFFC00FA35B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5E7CEFAA2A5DDFFD00FA35B5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					5E7CEFC02A5DDFFE00FA35B5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5E7CEFAA2A5DDFFD00FA35B5;
+					};
+					5E7CEFCA2A5DDFFE00FA35B5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5E7CEFAA2A5DDFFD00FA35B5;
+					};
+				};
+			};
+			buildConfigurationList = 5E7CEFA62A5DDFFC00FA35B5 /* Build configuration list for PBXProject "moody" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E7CEFA22A5DDFFC00FA35B5;
+			productRefGroup = 5E7CEFAC2A5DDFFD00FA35B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E7CEFAA2A5DDFFD00FA35B5 /* moody */,
+				5E7CEFC02A5DDFFE00FA35B5 /* moodyTests */,
+				5E7CEFCA2A5DDFFE00FA35B5 /* moodyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E7CEFA92A5DDFFD00FA35B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7CEFBB2A5DDFFE00FA35B5 /* LaunchScreen.storyboard in Resources */,
+				5E7CEFB82A5DDFFE00FA35B5 /* Assets.xcassets in Resources */,
+				5E7CEFB62A5DDFFD00FA35B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7CEFBF2A5DDFFE00FA35B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7CEFC92A5DDFFE00FA35B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6B8FE61BD883F69C3FA4FD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moody/Pods-moody-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moody/Pods-moody-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moody/Pods-moody-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E0B006A64C8E0EF32441F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moody-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E7CEFA72A5DDFFD00FA35B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7CEFB32A5DDFFD00FA35B5 /* ViewController.swift in Sources */,
+				5E7CEFAF2A5DDFFD00FA35B5 /* AppDelegate.swift in Sources */,
+				5E7CEFB12A5DDFFD00FA35B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7CEFBD2A5DDFFE00FA35B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7CEFC62A5DDFFE00FA35B5 /* moodyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7CEFC72A5DDFFE00FA35B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7CEFD02A5DDFFE00FA35B5 /* moodyUITests.swift in Sources */,
+				5E7CEFD22A5DDFFE00FA35B5 /* moodyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E7CEFC32A5DDFFE00FA35B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E7CEFAA2A5DDFFD00FA35B5 /* moody */;
+			targetProxy = 5E7CEFC22A5DDFFE00FA35B5 /* PBXContainerItemProxy */;
+		};
+		5E7CEFCD2A5DDFFE00FA35B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E7CEFAA2A5DDFFD00FA35B5 /* moody */;
+			targetProxy = 5E7CEFCC2A5DDFFE00FA35B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E7CEFB42A5DDFFD00FA35B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7CEFB52A5DDFFD00FA35B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E7CEFB92A5DDFFE00FA35B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E7CEFBA2A5DDFFE00FA35B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E7CEFD32A5DDFFE00FA35B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E7CEFD42A5DDFFE00FA35B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E7CEFD62A5DDFFE00FA35B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7399CB85B68BA73B895C0BC2 /* Pods-moody.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAFMV5465F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moody/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Isabella-Eng.moody";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E7CEFD72A5DDFFE00FA35B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE06E0AEE6A130949F2F78B /* Pods-moody.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAFMV5465F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moody/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Isabella-Eng.moody";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E7CEFD92A5DDFFE00FA35B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAFMV5465F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Isabella-Eng.moodyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moody.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moody";
+			};
+			name = Debug;
+		};
+		5E7CEFDA2A5DDFFE00FA35B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAFMV5465F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Isabella-Eng.moodyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moody.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/moody";
+			};
+			name = Release;
+		};
+		5E7CEFDC2A5DDFFE00FA35B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAFMV5465F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Isabella-Eng.moodyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moody;
+			};
+			name = Debug;
+		};
+		5E7CEFDD2A5DDFFE00FA35B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PAFMV5465F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Isabella-Eng.moodyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moody;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E7CEFA62A5DDFFC00FA35B5 /* Build configuration list for PBXProject "moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7CEFD32A5DDFFE00FA35B5 /* Debug */,
+				5E7CEFD42A5DDFFE00FA35B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7CEFD52A5DDFFE00FA35B5 /* Build configuration list for PBXNativeTarget "moody" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7CEFD62A5DDFFE00FA35B5 /* Debug */,
+				5E7CEFD72A5DDFFE00FA35B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7CEFD82A5DDFFE00FA35B5 /* Build configuration list for PBXNativeTarget "moodyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7CEFD92A5DDFFE00FA35B5 /* Debug */,
+				5E7CEFDA2A5DDFFE00FA35B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7CEFDB2A5DDFFE00FA35B5 /* Build configuration list for PBXNativeTarget "moodyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E7CEFDC2A5DDFFE00FA35B5 /* Debug */,
+				5E7CEFDD2A5DDFFE00FA35B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E7CEFA32A5DDFFC00FA35B5 /* Project object */;
+}

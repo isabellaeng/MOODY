@@ -1,0 +1,6 @@
+framework module Pods_moody {
+  umbrella header "Pods-moody-umbrella.h"
+
+  export *
+  module * { export * }
+}
